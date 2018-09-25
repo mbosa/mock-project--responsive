@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="29px" height="55px" viewBox="0 0 29 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 50.2 (55047) - http://www.bohemiancoding.com/sketch -->
+    <title>Fill 1</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="DESKTOP/MOBILE" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="TEST---Mobile" transform="translate(-324.000000, -998.000000)" fill="#D72F33">
+            <g id="back-copy-3" transform="translate(338.500000, 1025.500000) scale(-1, 1) translate(-338.500000, -1025.500000) translate(324.000000, 998.000000)">
+                <path d="M3.75291584,27.5888903 L28.5031238,2.83199739 C29.1121238,2.2228329 29.1121238,1.2467624 28.5031238,0.637597911 C27.894698,0.0288642298 26.9183168,0.0288642298 26.3098911,0.637597911 L0.456534653,26.4979373 C-0.152034653,27.1065274 -0.152034653,28.0831723 0.456534653,28.6917624 L26.3098911,54.5403264 C26.6082178,54.8393081 27.0103416,54.9997128 27.4005495,54.9997128 C27.790901,54.9997128 28.1930248,54.8505091 28.4919257,54.5403264 C29.1003515,53.9317363 29.1003515,52.9550914 28.4919257,52.3465013 L3.75291584,27.5888903 Z" id="Fill-1"></path>
+            </g>
+        </g>
+    </g>
+</svg>
