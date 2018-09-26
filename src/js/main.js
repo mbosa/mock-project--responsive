@@ -5,7 +5,7 @@
   const expandList = document.querySelectorAll('.nav-main .expand');
   const plusMinus = document.querySelectorAll('.nav-main .expand span');
   const navSub = document.querySelectorAll('.nav-sub');
-  const navLinks = document.querySelectorAll('.nav-menu li');
+  const navLinks = document.querySelectorAll('.nav-menu li a');
 
   toggleMenu.addEventListener('click', function(){
     navMain.classList.toggle('active');
