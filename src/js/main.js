@@ -111,12 +111,23 @@
   let tabBtn = document.querySelectorAll('.bottom-row .tabs-list .tab .tab-title img');
 
   for (let i = 0; i < tabs.length; i++) {
-    tabs[i].addEventListener('click', function(){
+    tabTitles[i].addEventListener('click', function(){
       tabTitles[i].classList.toggle('active');
       tabDescr[i].classList.toggle('active');
       if (tabTitles[i].classList.contains('active')) {
         tabBtn[i].setAttribute('src', 'TEST_ASSETS/BOTTONI/BTN_close@2x.png')
       } else {
+        tabBtn[i].setAttribute('src', 'TEST_ASSETS/BOTTONI/BTN_Open_OFF@2x.png')
+      }
+    })
+    // change btn on hover
+    tabTitles[i].addEventListener('mouseover', function(){
+      if (!tabTitles[i].classList.contains('active')) {
+        tabBtn[i].setAttribute('src', 'TEST_ASSETS/BOTTONI/BTN_Open_OVER@2x.png')
+      }
+    })
+    tabTitles[i].addEventListener('mouseleave', function(){
+      if (!tabTitles[i].classList.contains('active')) {
         tabBtn[i].setAttribute('src', 'TEST_ASSETS/BOTTONI/BTN_Open_OFF@2x.png')
       }
     })
